@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/added"
+        android:icon="@drawable/baseline_more_vert_24"
+        android:title="A"
+        app:showAsAction="always"
+        >
+        <menu>
+            <item android:id="@+id/download"
+                android:title="Download"
+                android:icon="@drawable/baseline_arrow_circle_down_24"
+                app:showAsAction="never"
+                />
+            <item android:id="@+id/favoris"
+                android:title="Favoris"
+                android:icon="@drawable/baseline_favorite_border_24"
+                app:showAsAction="never"
+                />
+        </menu>
+    </item>
+</menu>
+
+
